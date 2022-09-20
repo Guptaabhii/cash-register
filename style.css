@@ -2,8 +2,79 @@
     padding: 0;
     margin: 0;
 }
-.cotainer{
+.container{
     display: flex;
     flex-direction: column;
     width: 50vw;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Eczar', serif;
+    color: #ffff;
+    background-color:#064e3b;
+
+}
+h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+#description{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#bill-amount{
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 19vw;
+    font-weight: bold;
+    font-size: large;
+}
+label{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    
+}
+#cash-given{
+width: 170px;
+height: 35px;
+border-radius: 5px;
+font-weight: bold;
+font-size: large;
+}
+#check-button{
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: large;
+
+}
+table{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+table caption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table  th{
+    padding-left: 80px ;
+}
+table td{
+    padding-left: 30px;
+    border: 1px solid black;
+}
+.total-notes{
+    background-color:white;
+    color: black;
+    width: 10px;
+    
 }
